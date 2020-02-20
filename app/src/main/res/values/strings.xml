@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">INDONESIAKU</string>
+    <string name="Nama">Nama</string>
+    <string name="Deskripsi">Deskripsi</string>
+    <string name="Asal">Asal</string>
+    <string name="Update">Update</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="Tanggal">Tanggal</string>
+</resources>
