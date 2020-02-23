@@ -5,28 +5,23 @@
     android:id="@+id/activity_budaya"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MakananActivity">
+    tools:context=".MakananActivity"
+    android:background="@drawable/bg_makanan">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="130dp"
         android:id="@+id/topBar"
-        android:layout_marginBottom="10dp"
-        android:background="@color/colorPrimary">
-
-        <RelativeLayout
+        android:layout_marginBottom="10dp">
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Makanan Khas"
-                android:textSize="40sp"
-                android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:fontFamily="@font/architects_daughter"
-                android:layout_centerInParent="true"/>
-        </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:text="Makanan"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/aguafina_script"
+            android:layout_centerVertical="true"/>
 
     </RelativeLayout>
 

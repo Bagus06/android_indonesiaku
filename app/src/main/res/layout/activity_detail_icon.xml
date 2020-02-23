@@ -9,23 +9,19 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="100dp"
         android:id="@+id/topBar"
-        android:background="@color/colorPrimary">
-
-        <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/topbar_ikonkota">
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Icon Kota"
-                android:textSize="40sp"
-                android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:fontFamily="@font/architects_daughter"
-                android:layout_centerInParent="true"/>
-        </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:text="Ikon Kota"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/aguafina_script"
+            android:layout_centerVertical="true"/>
 
     </RelativeLayout>
     <ScrollView

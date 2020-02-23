@@ -44,6 +44,12 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="4dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/topbar_budaya"
+                android:scaleType="centerCrop"/>
+
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
@@ -58,7 +64,7 @@
                     android:fontFamily="@font/stalinist_one"
                     android:text="Budaya"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="25dp"
                     app:fontFamily="@font/aguafina_script" />
             </LinearLayout>
@@ -75,6 +81,12 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="4dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/topbar_rumah"
+                android:scaleType="centerCrop"/>
+
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
@@ -85,7 +97,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="25dp"
                     android:fontFamily="@font/aguafina_script"
                     android:text="Rumah Adat"/>
@@ -103,6 +115,12 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="4dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/topbar_makanan"
+                android:scaleType="centerCrop"/>
+
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
@@ -113,7 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="25dp"
                     android:fontFamily="@font/aguafina_script"
                     android:text="Makanan Khas"/>
@@ -131,6 +149,12 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="4dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/topbar_ikonkota"
+                android:scaleType="centerCrop"/>
+
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
@@ -141,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="25dp"
                     android:fontFamily="@font/aguafina_script"
                     android:text="Icon Kota"/>
@@ -160,6 +184,12 @@
             app:cardElevation="8dp"
             app:cardCornerRadius="4dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/topbar_peristiwa"
+                android:scaleType="centerCrop"/>
+
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
@@ -171,7 +201,7 @@
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="25dp"
+                    android:textSize="40dp"
                     android:fontFamily="@font/aguafina_script"
                     android:text="Peristiwa Indonesia"/>
             </LinearLayout>
