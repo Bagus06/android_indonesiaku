@@ -6,4 +6,25 @@
     <string name="Update">Update</string>
     <string name="Tutorial">Tutorial</string>
     <string name="Tanggal">Tanggal</string>
+
+
+    <string name="title_activity_welcome">Welcome Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">TRADISI</string>
+    <string name="slide_1_desc">Ketahui tradisi indonesia yang banyak dan bermacam.</string>
+
+    <string name="slide_2_title">RUMAH ADAT</string>
+    <string name="slide_2_desc">Indonesia banyak akan suku, adat, dan kebudayaan.</string>
+
+    <string name="slide_3_title">MAKANAN KHAS</string>
+    <string name="slide_3_desc">Indonesia juga mempunyai banyak makanan khas yang perlu kalian ketahui.</string>
+
+    <string name="slide_4_title">LANDMARK</string>
+    <string name="slide_4_desc">Setiap kota di indonesia tentunya memiliki landmark atau ikon pada masing-masing kotanya.</string>
+
+    <string name="slide_5_title">PERISTIWA</string>
+    <string name="slide_5_desc">Banyak pula peristiwa-peristiwa kemerdekaan indonesia yang tentunya harus kalian ketahui.</string>
 </resources>

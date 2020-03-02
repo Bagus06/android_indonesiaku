@@ -59,14 +59,14 @@
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:fontFamily="@font/stalinist_one"
-                    android:text="Budaya"
+                    android:text="Tradisi"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25dp"
-                    app:fontFamily="@font/aguafina_script" />
+                    android:textSize="20dp"
+                    app:fontFamily="@font/capriola" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
@@ -94,12 +94,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25dp"
-                    android:fontFamily="@font/aguafina_script"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/capriola"
                     android:text="Rumah Adat"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -128,12 +128,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25dp"
-                    android:fontFamily="@font/aguafina_script"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/capriola"
                     android:text="Makanan Khas"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -162,12 +162,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textSize="25dp"
-                    android:fontFamily="@font/aguafina_script"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/capriola"
                     android:text="Icon Kota"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -197,12 +197,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="40dp"
-                    android:fontFamily="@font/aguafina_script"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/capriola"
                     android:text="Peristiwa Indonesia"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>

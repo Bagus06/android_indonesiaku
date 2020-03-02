@@ -16,11 +16,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Budaya"
-            android:textSize="60sp"
+            android:text="Tradisi"
+            android:textSize="50sp"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:fontFamily="@font/aguafina_script"
+            android:fontFamily="@font/capriola"
             android:layout_centerVertical="true"/>
 
     </RelativeLayout>
@@ -35,16 +35,17 @@
                 android:id="@+id/match1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:id="@+id/txt_nama"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
                     android:text="@string/Nama"
                     android:textColor="@android:color/black"
-                    android:fontFamily="@font/architects_daughter"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:layout_centerHorizontal="true"/>
+                    app:fontFamily="@font/capriola" />
                 <TextView
                     android:id="@+id/txt_update"
                     android:layout_below="@+id/txt_nama"
