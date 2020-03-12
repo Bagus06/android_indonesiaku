@@ -26,11 +26,11 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5"
+        android:layout_weight="6"
         android:alignmentMode="alignMargins"
         android:columnOrderPreserved="false"
         android:columnCount="2"
-        android:rowCount="3"
+        android:rowCount="4"
         android:padding="14dp">
         <androidx.cardview.widget.CardView
             android:id="@+id/btnBudaya"
@@ -206,6 +206,30 @@
                     android:text="Peristiwa Indonesia"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-    </GridLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnInfo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="4dp">
 
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/info"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
 </LinearLayout>

@@ -18,19 +18,25 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"/>
 
-        <TextView
-            android:id="@+id/txt_nama"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp"
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/architects_daughter"
-            android:text="@string/Nama"
-            android:textSize="30sp"
-            android:textColor="@android:color/black"
             android:background="@android:color/white"
-            android:textStyle="bold" />
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/txt_nama"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/architects_daughter"
+                android:text="@string/Nama"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </RelativeLayout>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

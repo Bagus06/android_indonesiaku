@@ -63,6 +63,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        CardView btnInfo = (CardView) findViewById(R.id.btnInfo);
+        btnInfo.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent i = new Intent(MainActivity.this,InfoActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 }

@@ -6,6 +6,17 @@
     <string name="Update">Update</string>
     <string name="Tutorial">Tutorial</string>
     <string name="Tanggal">Tanggal</string>
+    <string name="copyright">
+        @Copyright-RPLSMKN 1 Bangsri Jepara
+    </string>
+
+    <string name="info">
+        Indonesiaku adalah sebuah aplikasi pembelajaran yang ditujukan untuk umum. Berisi tentang banyak kebudayaan dan keberagaman yang menjadi ciri khas di suatu wilayah di Indonesia.
+    </string>
+
+    <string name="team">
+        1.Antoni Yahya (Layout Design)\n2.Koresy Setian Kurnia Sandi (Admin)\n3.Abraham Gerry Setiawan (Admin)\n4.Bagus Fikrianto (Backand)
+    </string>
 
 
     <string name="title_activity_welcome">Welcome Screen</string>
